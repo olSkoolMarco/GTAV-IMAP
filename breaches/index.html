@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>GTAV Interactive Map</title>
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" href="style.css">
+
+	<script src="js/libs/jquery-min.js"></script>
+	<script src="js/libs/underscore-min.js"></script>
+	<script src="js/libs/backbone-min.js"></script>
+	<script src="js/libs/handlebars.js"></script>
+	<script src="//www.google.com/jsapi"></script>
+	<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="js/app.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69971086-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+</head>
+<body class="">
+
+	<header>
+		<p class="left"><a href="//www.gtav-imap.com/breaches">GTAV Interactive Wallbreach Map</a></p>
+		<ul class="right">
+			<li class="social-info"><a href="http://www.gtav-imap.com/submit.html"><img src="icons/info.png" width="24px" hieght="24px"alt="add new locations" /></a></li>
+			<li class="fb-like" data-href="https://www.facebook.com/GTAV-Interactive-Map-480105888836614" data-width="120" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></li><li id="fb-root"></li>
+			<script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script></li>
+		</ul>
+	</header>
+
+	<div id="tour-nav">
+		<a href="#" class="left">&laquo; <span id="tour-prev"></span></a>
+		<h3>Nuclear Waste Tour</h3>
+		<a href="#" class="right"><span id="tour-next"></span> &raquo;</a>
+	</div>
+
+	<div id="map" style="background:#1862ad;"></div>
+
+	<div id="tour-info"></div>
+
+	<script type="x/template" id="categoriesTemplate">
+		{{#each categories}}
+			<section class="type">
+				<h3>{{name}}</h3>
+				<ul>
+					{{#each types}}
+						<li><label><input type="checkbox" {{#if enabled}}checked{{/if}} value="{{name}}"> <img src="{{assetsUrl}}icons/{{icon}}"> {{name}}</label> <a href="#" class="details" data-name="{{name}}"><i class="icon-chevron-sign-right"></i></a> <!--<a href="#tour" class="tt"></a>--></li>
+					{{/each}}
+				</ul>
+			</section>
+		{{/each}}
+	</script>
+
+	<script type="x/template" id="categoryDetailsTemplate">
+		<section class="type">
+			<h3><a href="#" class="back details"><i class="icon-chevron-sign-left"></i></a> {{type.name}}</h3>
+			<ul>
+				{{#each locations}}
+					<li data-id="{{id}}"><label>{{title}}</label></li>
+				{{/each}}
+			</ul>
+		</section>
+	</script>
+
+	<script type="x/template" id="markerPopupTemplate2">
+		<div id="info-window" style="max-width:420px;">
+			<div class="scrollable">
+				<span class="header">
+					<h3>{{title}}</h3>
+				</span>
+				<div id="info-body">
+					{{#if notes}}
+						<br>
+						<p>{{notes}}</p>
+					{{/if}}
+					{{#if video}}
+						<div class="video-{{id}}">
+							<br>
+							<h4>Video</h4>
+							{{#ifEquals video.type 'youtube'}}
+								<div class="videowrapper">
+									<iframe width="100%" src="//www.youtube.com/embed/{{video.video_id}}?theme=light&amp;autoplay=1&amp;autohide=1&amp;modestbranding=1&amp;iv_load_policy=3&amp;rel=0&amp;showinfo=0&amp;loop=1{{#if video.start}}&amp;start={{timestampToSeconds video.start}}{{/if}}{{#if video.end}}&amp;end={{timestampToSeconds video.end}}{{/if}}" frameborder="0" allowfullscreen></iframe>
+								</div>
+							{{/ifEquals}}
+							{{#ifEquals video.type 'vimeo'}}
+								<div class="videowrapper">
+									<iframe src="https://player.vimeo.com/video/{{video.video_id}}{{#if video.start}}#t={{timestampToSeconds video.start}}{{/if}}" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+								</div>
+							{{/ifEquals}}
+							{{#ifEquals video.type 'dailymotion'}}
+								<div class="videowrapper">
+									<iframe src="https://www.dailymotion.com/embed/video/{{video.video_id}}?autoplay=1{{#if video.start}}&start={{timestampToSeconds video.start}}{{/if}}" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+								</div>
+							{{/ifEquals}}
+							{{#if video.video_by}}
+								<p>
+									<a href="{{video.video_channel}}" style="color:#222;font-size:.8em;float:right;" target="_blank">
+										Video by {{video.video_by}}
+									</a>
+								</p>
+							{{/if}}
+						</div>
+					{{/if}}
+					{{#if images}}
+						<br>
+			     		<h4>Images</h4>
+					{{/if}}
+					{{#each images}}
+						<div class="image-{{id}}">
+					     	<span>{{headline}}</span>
+					     	<img src="{{url}}" class="image-{{id}}">
+					     	<p>
+								<a href="{{contact}}" style="color:#222;font-size:.8em;float:right;" target="_blank">
+									Image by {{author}}
+								</a>
+					     	</p>
+					    </div>
+					    <br>
+			     	{{/each}}
+					{{#each credit}}
+						<p style="overflow:hidden;clear:both;text-align:right;">
+							<a href="{{#if where}}{{where}}{{else}}#{{/if}}" target="_blank" style="color:#222;font-size:.8em;">
+								{{what}} by {{who}}
+							</a>
+						</p>
+					{{/each}}
+				</div>
+			</div>
+		</div>
+	</script>
+
+	<div id="typeDetails" class="types"></div>
+
+	<div id="types" class="types"></div>
+
+</body>
+</html>
