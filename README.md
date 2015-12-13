@@ -5,7 +5,7 @@ This interactive (Google) map shows you the location of current working GTA V wa
 
 ## Screenshots
 
-![screenshot-1](http://www.gtav-imap.com/image/homepage.jpeg/+)
+![screenshot-1](http://www.gtav-imap.com/image/homepage.jpg/+)
 
 ## Usage
 
