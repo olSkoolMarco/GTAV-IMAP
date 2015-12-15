@@ -283,7 +283,7 @@ $(function() {
 			this.mapOptions = {
 				center: new google.maps.LatLng(66, -125),
 				zoom: 4,
-				disableDefaultUI: true,
+				disableDefaultUI: false,
 				mapTypeControl: true,
 				mapTypeControlOptions: { mapTypeIds: _.keys(this.mapDetails) },
 				mapTypeId: this.mapType
