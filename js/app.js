@@ -285,7 +285,7 @@ $(function() {
 				zoom: 4,
 				disableDefaultUI: false,
 				mapTypeControl: true,
-				mapTypeControlOptions: { mapTypeIds: _.keys(this.mapDetails) },
+				mapTypeControlOptions: { position: google.maps.ControlPosition.TOP_RIGHT, mapTypeIds: _.keys(this.mapDetails) },
 				mapTypeId: this.mapType
 			};
 
