@@ -22,6 +22,98 @@
       }
       ]
   },
+    {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Humane Labs - Chianski Mountain Ranges",
+    "notes": "This wallbreach is located at the Humane Labs Compound in the Chianski Mountain Ranges. So to do this breach you must stand in location indicated in video and pull up phone, join and leave a Lester mission. Doing this should spawn you inside the Humane Labs Building.",
+    "lat": 79.126,
+    "lng": -89.375,
+    "video": {
+      "type": "youtube",
+      "video_id": "zmSN_WfogTY",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "5:08"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "TBA",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+  {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Mount Gordo House",
+    "notes": "Breach is located at the house at the base of Mount Gordo, near the Light House  (where Trevor escapes the FIB at the end of story mode). To get into breach, first you will need a helicopter to get to the roof. And once on roof lean against chimney, walk up and aim (you will then fall though roof and into breach) *It may takes afew tries but you should get the hang of it in no time.",
+    "lat": 81.475,
+    "lng":  -92.515,
+    "video": {
+      "type": "youtube",
+      "video_id": "TK0dsHD_Ttk",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "2:13"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "TBA",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+    {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Fort Zancudo - Highway Tunnel",
+    "notes": "Breach is located on the Highway Tunnel, near Fort Zancudo. It is a little tricky getting this to work....but after afew tries you should get the hang of it.",
+    "lat": 71.634,
+    "lng":  -149.814,
+    "video": {
+      "type": "youtube",
+      "video_id": "S_CLdQwvwFk",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "1:55"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "ohBunglleHD",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+  {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Seaview Rd - Grapeseed",
+    "notes": "Breach is located down the road from Trevors Airfield in Grapeseed, which is on the Eastside of Mount Chiliad.",
+    "lat": 80.655,
+    "lng":  -107.815,
+    "video": {
+      "type": "youtube",
+      "video_id": "_LkiZd4INno",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "1:57"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "TBA",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
   {
     "type": "Wall Breaches",
     "timestamp": "2015-05-30T08:19:55+00:00",
