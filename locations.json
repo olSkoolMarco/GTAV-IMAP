@@ -94,10 +94,56 @@
   {
     "type": "Wall Breaches",
     "timestamp": "2015-05-30T08:19:55+00:00",
-    "title": "Seaview Rd - Grapeseed",
-    "notes": "Breach is located down the road from Trevors Airfield in Grapeseed, which is on the Eastside of Mount Chiliad.",
-    "lat": 80.655,
-    "lng":  -107.815,
+    "title": "Little Seoul Parking Lot",
+    "notes": "Breach is located in the centre of Los Santos, at the Little Seoul Parking Lot. With the ability to drive inside it comes in handy.",
+    "lat": 66.739,
+    "lng": -128.035,
+    "video": {
+      "type": "youtube",
+      "video_id": "64H_1JhuTks",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "1:12"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "MinnesotaNnja",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+  {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Crastenburg Hotel",
+    "notes": "Breach is Located in La Puerta at the Crastenburg Hotel. This is a small beach (with not much room to walk around). Though is a handy location, near the airport.",
+    "lat": 60.921,
+    "lng":  -133.351,
+    "video": {
+      "type": "youtube",
+      "video_id": "ftyu4aSm7IM",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "2:17"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "Jmak1231",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+    {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Seaview Road - Grapeseed",
+    "notes": "Here is a wallbreach which is located on Seaview Drive, just down the road from Trevors Airfield in Grapeseed. This is a handy little location, though is not that big. To enter breach it is as simple as getting a vehicle and climbing onto the front door.",
+    "lat": 80.666,
+    "lng":  -107.789,
     "video": {
       "type": "youtube",
       "video_id": "_LkiZd4INno",
@@ -109,8 +155,8 @@
     "credit": [
       {
         "what": "Breach found",
-        "who": "TBA",
-        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+        "who": "ThoMass360",
+        "where": "http://www.se7ensins.com/forums/threads/seaview-road-grapeseed-wallbreach-near-trevors-airfield.1425000/"
       }
       ]
   },
