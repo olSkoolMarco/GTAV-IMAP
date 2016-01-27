@@ -22,6 +22,190 @@
       }
       ]
   },
+  {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Astro Movie Theatre",
+    "notes": "Breach is located ontop of the Astro Movie Theatre in Del Perro, just down from the apartments. To get onto roof you will need a helicopter as there is no ladders to this section of the building.",
+    "lat": 67.162,
+    "lng": -137.552,
+    "video": {
+      "type": "youtube",
+      "video_id": "8QOywjcZ-rA",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "2:07"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "TBA",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+  {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Madrazo's House",
+    "notes": "To get into this breach, you will need a bike. Then jump onto rooftop of Madrazo's House. Drop onto the balcony then ride around side and into wall.",
+    "lat": 71.822,
+    "lng":  -134.524,
+    "video": {
+      "type": "youtube",
+      "video_id": "JCQ9ekme6DM",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "2:12"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "Rockitman187",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+    {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Franklins House",
+    "notes": "To breach into Franklins, stand in middle of air ducts (as shown in video) and join then leave a contact mission (via cell) and you should spawn inside Franklins House",
+    "lat": 71.372,
+    "lng":  -124.662,
+    "video": {
+      "type": "youtube",
+      "video_id": "PCaqOKy14sQ",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "3:05"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "TBA",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+  {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Kortz Centre - Pacific Bluffs",
+    "notes": "Breach is located on top of the Kortz Centre at the Bell Building (Pacific Bluffs).",
+    "lat": 70.318,
+    "lng": -145.863,
+    "video": {
+      "type": "youtube",
+      "video_id": "1yUwSzzU6Qw",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "3:08"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "El Jugador",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+  {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Fort Zancudo Army Base",
+    "notes": "Breach is located at the Lookout Tower at Fort Zancudo. To enter breach lean against the doorway as indicated in video and run into wall. In this breach you can walk up the stairs all the way to the top of tower.",
+    "lat": 78.219,
+    "lng":  -147.317,
+    "video": {
+      "type": "youtube",
+      "video_id": "tO1sNOaFra8",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "3:07"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "TBA",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+    {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "La Spada Restaurant",
+    "notes": "Breach is located near the La Puerta Apartments, on the rooftop of the La Spada Itailian Restaurant.",
+    "lat": 64.495,
+    "lng":  -134.678,
+    "video": {
+      "type": "youtube",
+      "video_id": "yk6ZaEaPVEg",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "2:22"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "Rockitman187",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+  {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Vespucci Beach House",
+    "notes": "Breach is located at Vespucci Beach, just down from the market area. This is a handy location with a Gang Attack at rear of house.",
+    "lat": 63.183,
+    "lng":  -135.289,
+    "video": {
+      "type": "youtube",
+      "video_id": "Fda4dGNwLUw",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "1:50"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "El Jugador",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
+  {
+    "type": "Wall Breaches",
+    "timestamp": "2015-05-30T08:19:55+00:00",
+    "title": "Simeon's Dealership ",
+    "notes": "Breach is located on the rooftop of Premium Deluxe Motorsport ( Simeon's Dealership ) in Power Street . To enter this breach go to location indicated in video and hold RB to crouch down. And you will then start sliding into the Dealership. Unfortunately, you only get a few seconds before it kicks you out....but is still an interesting breach.",
+    "lat": 65.615,
+    "lng":  -125.021,
+    "video": {
+      "type": "youtube",
+      "video_id": "Z98MZgyA7CI",
+      "video_by": "El Jugador",
+      "video_channel": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww",
+      "start": "0:00",
+      "end": "1:25"
+    },
+    "credit": [
+      {
+        "what": "Breach found",
+        "who": "El Jugador",
+        "where": "https://www.youtube.com/channel/UCosFArMnO0Go8wYjGzEb5Ww"
+      }
+      ]
+  },
     {
     "type": "Wall Breaches",
     "timestamp": "2015-05-30T08:19:55+00:00",
